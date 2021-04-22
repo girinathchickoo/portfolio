@@ -258,5 +258,14 @@ footer{
 	background:#040b14;
 	color:#fff;
 }
-
+.hm{
+	position:fixed;
+	height:100vh;
+	background-color: #007aff;
+	border-radius:50%;
+	margin-left:auto;
+}
+#projects .container{
+	padding-top:10px;
+}
 
