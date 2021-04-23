@@ -142,6 +142,14 @@ li{
 	text-align:left;
 	padding-bottom:20px;
 }
+#about{
+	background-color:#f5f8fd;
+	height:100vh;
+}
+#about .container{
+	padding-top:20px;
+		
+}
 #skills{
 	background-color:#f5f8fd;
 }
