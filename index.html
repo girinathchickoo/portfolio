@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<title>GIRINATH</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+	<section id="home">
 	<div class="bg">
-		<div class="nav">
+		<div class="hamtonav">
 			
 			<img src="profile.jpg">
 			<h1>Girinath Chickoo</h1>
 			<a href="https://touch.facebook.com/?_rdr"><i class="fab fa-facebook-f social-media-icon f"></i></a>
 			<i class="fab fa-instagram social-media-icon"></i>
-			<a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"><i class="fab fa-linkedin-in social-media-icon"></i></a>
-			<a href="https://github.com/girinathchickoo"><i class="fab fa-github social-media-icon"></i><a>
+			<a href="https://www.linkedin.com/in/girinath-giri-59939a160/"><i class="fab fa-linkedin-in social-media-icon"></i></a>
+			<a href="https://github.com/girinathchickoo"><i class="fab fa-github social-media-icon"></i></a>
 			<nav>
 				<ul>
 					<a href="#home">
@@ -28,13 +32,19 @@
 				</ul>
 			</nav>
 		</div>
+		<div class="heading">
+		<h1> Girinath,</h1>
+		<p>i'm Web Developer.</p></div>
+		<button class="hamburger" onclick="toggle(this)"><i class="fas fa-bars"></i></button>
 	
 </div>
-<a class="hm" href="#home">home</a>
-<section id="about" class="container">
+</section>
+<a class="hm" href="#home"><i class="fas fa-arrow-up"></i></a>
+
+<section id="about" class="container" >
 	<h2>About</h2>
 	<h3>UI/UX Designer and Web Developer</h3>
-	<div  class="bio">
+	<div  class="bio" data-aos="fade-right">
 		<ul>
 		<li >
 			<strong>Birthday:</strong><span>june 1997</span>
@@ -62,9 +72,10 @@
 		</li>
 		</ul>
 	</div>
+	
 </section>
-<section id="skills" >
-	<div class="container">
+<section id="skills"  >
+	<div class="container" data-aos="fade-left">
 	<h2>Skills</h2>
 	<ul>
 		<li>HTML<span>80%</span>
@@ -124,10 +135,10 @@
 	</ul>
 </div>
 </section>
-<section id="projects">
-	<div class="container">
+<section id="projects" >
+	<div class="container" >
 		<h2>projects</h2>
-		<div class="flex1">
+		<div class="flex1" data-aos="fade-right">
 			<div class="flex2">
 				<img src="face.png">
 				<h3>face recognition app using react js -frontend</h3>
@@ -183,16 +194,23 @@
 	
 </div>
 	</section>
-<section id="resume">
-	<div class="container">
+<section id="resume" >
+	<div class="container" data-aos="fade-left">
 		<h2>Resume</h2>
 	<p>I have attached my resume below for your reference,Click on  the download button to view the resume.</p>
 	<a href="Girinath-Resume.pdf" download><button>download</button></a>
 </div>
 	</section>
+	
 	<footer>
-		contact me @girinathgiri24@gmail.com
+		contact me @ girinathgiri24@gmail.com
 	</footer>
+<script type="text/javascript" src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+</script>
+
 
 
 </body>
